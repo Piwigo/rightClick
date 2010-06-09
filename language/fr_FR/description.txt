@@ -1,0 +1,7 @@
+rightClick désactive le menu contextuel sur les images de taille web et plus encore.
+La page Picture, akBookStyle, Lightbox, HD Shadowbox et photoWidget sont protégés par défaut.
+Tout autre selecteur jQuery valide pourrait être ajouté à cette liste par défaut.
+Par défaut encore, le webmaster et les administeurs conservent l'usage du clic-droit.
+
+Les menus contextuels sont désactivés sur les principaux navigateurs. 
+Merci de garder à l'esprit que rightClick n'est pas une sécurité totale contre la copie des images. 
