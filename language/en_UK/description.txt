@@ -1,7 +1,5 @@
 rightClick deactivates the context menu on websized pictures and more.
-Picture page, akBookStyle, Lightbox, HD Shadowbox and photoWidget are protected by default.
-Other valid jQuery selectors could be added to the default list.
+Picture page, akBookStyle, Lightbox and HD Shadowbox are protected by default.
 By default, webmaster and administors keep the right-click available.
 
-Context menus are disable on main browsers. 
-Please, remind that rightClick is not a full secured solution against image copy. 
+Please, remind that rightClick is not a full secured solution against image copy.

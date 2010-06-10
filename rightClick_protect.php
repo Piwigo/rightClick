@@ -8,12 +8,12 @@ if ( !function_exists( 'rightClick_protect' ) ) {
 
 	function  rightClick_protect() {
 		global $template, $user, $conf;
-		if (!isset($conf['rightClick_level'])) list ($Maxlvl) = array_slice($conf['available_permission_levels'],-1);
+		if (!isset($conf['rightClick_level'])) $Maxlvl = max($conf['available_permission_levels']);
 		else $Maxlvl = $conf['rightClick_level'];
 		if ($user['level'] >= $Maxlvl) return;
-		$default = array( '#theImage img', '#photoWidget', 'img#akPicture', 'img#cboxPhoto', 'img#sb-body-inner', );
+		$default = array( '#theImage img', '#akPicture', '#colorbox', '#sb-container', );
 		if (!isset($conf['rightClick_selectors'])) $conf['rightClick_selectors'] = array();
-		$conf['rightClick_selectors'] = array_unique( $default + $conf['rightClick_selectors'] );
+		$conf['rightClick_selectors'] = array_unique( array_merge($default, $conf['rightClick_selectors']) );
 		
 		$template->set_filenames(array(
 		'rightClick_protect' => dirname(__FILE__) . '/template/rightClick_protect.tpl',
