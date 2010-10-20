@@ -1,0 +1,1 @@
+rightClick disattiva il menu a discesa del tasto destro. Gli utenti con livello di privacy come "amministratori" hanno il clic-destro abilitato. Si prega di tenere presente che rightClick non è una soluzione completa per la protezione delle immagini.
