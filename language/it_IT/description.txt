@@ -1,1 +1,5 @@
-rightClick disattiva il menu a discesa del tasto destro. Gli utenti con livello di privacy come "amministratori" hanno il clic-destro abilitato. Si prega di tenere presente che rightClick non è una soluzione completa per la protezione delle immagini.
+rightClick disabilita il menu contestuale sulle immagini formato web e altro ancora.
+La pagina Picture, akBookStyle, Lightbox e HD Shadowbox sono automaticamente protetti.
+Di nuovo di default, il webmaster e gli amministratori sono esclusi da queste impostazioni (click destro abilitato).
+
+Tenete presente che rightClick non è una protezzione totale contro la copia delle immagini.
