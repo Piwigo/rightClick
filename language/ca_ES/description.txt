@@ -1,1 +1,1 @@
-Deshabilita el men&uacute; contextual del bot&oacute; dret als usuaris per a dificultar la desc&agrave;rrega d'imatges.
+Deshabilita el menú contextual del botó dret als usuaris per a dificultar la descàrrega d'imatges.
