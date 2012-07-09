@@ -28,7 +28,7 @@ if ( !function_exists( 'rightClick_protect' ) )
 
 		if ($user['level'] >= $Maxlvl) return;
 
-		$default = array( '#theImage img', '#akPicture', '#colorbox', '#sb-container', '#prevnext', '#theMainImage',);
+		$default = array( '#theImage img', '#theImage area', '#akPicture', '#colorbox', '#sb-container', '#prevnext', '#theMainImage',);
 		if (!isset($conf['rightClick_selectors']))
       $conf['rightClick_selectors'] = array();
 
