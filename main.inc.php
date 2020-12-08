@@ -42,6 +42,7 @@ if ( !function_exists( 'rightClick_protect' ) )
                   '#thumbnails img', // specific on Stripped
                   '#myHomePage img', // Homepage with Additional Pages
                   '.fotorama__img', // Fotorama
+                  '.pswp img',      // Bootstrap Darkroom
                   );
 		if (!isset($conf['rightClick_selectors']))
       $conf['rightClick_selectors'] = array();
