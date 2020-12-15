@@ -26,7 +26,7 @@ function  rightClick_protect()
 
   $Maxlvl = isset($conf['rightClick_level']) ? $conf['rightClick_level'] : max($conf['available_permission_levels']);
 
-	if ($user['level'] >= $Maxlvl)
+  if ($user['level'] >= $Maxlvl)
   {
     return;
   }
