@@ -1,0 +1,1 @@
+rightClick slekkur á hægri smellivalmyndinni á vefstærðarmyndinni. Notendur með „Stjórnendur“ friðhelgisréttindi halda hægrismellinum tiltækum. Vinsamlegast hafðu í huga að rightClick er ekki full örugg lausn gegn afritun mynda.
