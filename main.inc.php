@@ -63,6 +63,7 @@ function  rightClick_protect()
     'Dir' => RIGHTCK_DIR,
     'Path' => $Path,
     'Selectors' => $conf['rightClick_selectors'],
+    'Selectors_csv' => implode(',', $conf['rightClick_selectors']),
   );
 
   $template->assign(array('RIGHTCK' => $protect));
